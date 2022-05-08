@@ -731,6 +731,10 @@ a:focus {
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
+.img-moyenne{
+    width: 30%;
+    border: solid #313131;
+}
 .service {
     position: relative;
     width: 100%;
@@ -747,13 +751,13 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #FF6000;
+    box-shadow: inset 800px 0 0 1px #FF6000;
 }
 
 .service .service-icon {
     position: relative;
     width: 150px;
-    min-height: 150px;
+    min-height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -814,6 +818,7 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
+
 }
 
 .portfolio #portfolio-filter {
@@ -861,6 +866,7 @@ a:focus {
 .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
+    height: 200px;
 }
 
 .portfolio .portfolio-img img {
@@ -918,6 +924,7 @@ a:focus {
 /*******************************/
 /********* Banner CSS **********/
 /*******************************/
+
 .banner {
     position: relative;
     width: 100%;
@@ -945,6 +952,10 @@ a:focus {
 }
 
 .banner .section-header h2 {
+    color: #ffffff;
+}
+
+.banner .banner-text h3 {
     color: #ffffff;
 }
 
@@ -1317,6 +1328,10 @@ a:focus {
     background: url(../img/contact.jpg) left center no-repeat;
     background-size: contain;
 }
+.contact .container-fluid2 {
+    background: url(../img/contact.jpg) center no-repeat;
+    background-size: contain;
+}
 
 .contact .contact-form {
     position: relative;
@@ -1462,6 +1477,10 @@ a:focus {
     margin: 0;
 }
 
+/*******************************/
+/********* Caroussel CSS **********/
+/*******************************/
+
 
 /*******************************/
 /********* Footer CSS **********/
@@ -1593,3 +1612,9 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+.justext{
+    text-align: justify;
+    width: 70%;
+}
+
