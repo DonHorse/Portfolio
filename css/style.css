@@ -1618,3 +1618,8 @@ a:focus {
     width: 70%;
 }
 
+.gantt{
+    max-width: 96%;
+    margin: 2%;
+    justify-content: center;
+}
